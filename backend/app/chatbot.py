@@ -9,6 +9,8 @@ from app.ml.predictor import predict_units
 load_dotenv(dotenv_path=os.path.join(os.getcwd(), ".env"))
 
 API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY='AIzaSyAzJdwiLfkTGXazhYKDZPbW6mLlvfMhbgE'
+
 if not API_KEY:
     raise RuntimeError("GEMINI_API_KEY not loaded")
 

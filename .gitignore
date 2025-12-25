@@ -56,3 +56,4 @@ coverage/
 # Python virtual environments
 venv/
 backend/venv/
+firebase-admin-key.json
